@@ -10,8 +10,15 @@ namespace Egitim_1
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Merhaba Dünya");
+            Console.WriteLine(Günler.Pazartesi);
+            Console.WriteLine((int)Günler.Sali);
             Console.ReadKey();
+        }
+        enum Günler
+        {
+            Pazartesi,Sali,Carsamba,Persembe,Cuma,Cumartesi,Pazar
         }
     }
 }
